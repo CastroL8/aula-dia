@@ -23,8 +23,8 @@ sb = shn + shead #Salario Bruto
 
 sliq = sb - sb * (desc / 100) #Salario Liquido
 #Saida 
-print("\n--- Folha de pagamento ---")
-print(f"{preto}nome: ",nome)
+print(f"{preto}n--- Folha de pagamento ---")
+print("nome: ",nome)
 print("CPF: ",cpf)
 print("Salario das horas normais",shn)
 print("Salario das horas extras: ",shead)
